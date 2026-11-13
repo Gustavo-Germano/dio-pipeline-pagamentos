@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Account",
+  "namespace": "br.com.gskool.payments",
+  "fields": [
+    {"name": "account_id", "type": "long"},
+    {"name": "customer_name", "type": "string"},
+    {"name": "customer_email", "type": "string"},
+    {"name": "account_status", "type": "string"},
+    {"name": "created_at", "type": {"type": "long", "logicalType": "timestamp-millis"}}
+  ]
+}
