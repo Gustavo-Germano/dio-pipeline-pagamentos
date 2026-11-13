@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Transaction",
+  "namespace": "br.com.gskool.payments",
+  "fields": [
+    {"name": "transaction_id", "type": "long"},
+    {"name": "account_id", "type": "long"},
+    {"name": "card_id", "type": "string"},
+    {"name": "amount", "type": {"type": "string}},
+    {"name": "currency", "type": "string"},
+    {"name": "merchant", "type": "string"},
+    {"name": "status", "type": "string"},
+    {"name": "created_at", "type": {"type": "long", "logicalType": "timestamp-millis"}}
+  ]
+}
